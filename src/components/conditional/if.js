@@ -9,7 +9,6 @@ export default props => {
     });
 
     if(props.test) {
-        console.log(props)
         return isChildren;
     } else if(elseChild) {
         return elseChild;

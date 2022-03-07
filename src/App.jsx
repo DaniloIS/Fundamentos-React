@@ -11,6 +11,8 @@ import ListStudents from './components/repetition/ListStudents';
 import TableProducts from './components/repetition/TableProducts';
 import PairOrOdd from './components/conditional/PairOrOdd';
 import UserInfo from './components/conditional/UserInfo';
+import DirectFather from './components/comunication/DirectFather';
+import IndirectFather from './components/comunication/IndirectFather';
 
 import './App.css';
 
@@ -72,6 +74,18 @@ export default function App() {
 
                     <PairOrOdd value={20} />
                     <UserInfo user={{ name: 'Danilo' }} />
+
+                </Card>
+
+                <Card title="#9 - Comunicação Direta" color="#59323C">
+
+                    <DirectFather />
+
+                </Card>
+
+                <Card title="#10 - Comunicação Indireta" color="#8BAD39">
+
+                    <IndirectFather />
 
                 </Card>
 
