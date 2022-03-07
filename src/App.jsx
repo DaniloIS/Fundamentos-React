@@ -10,6 +10,7 @@ import FamilyMember from './components/basics/FamilyMember';
 import ListStudents from './components/repetition/ListStudents';
 import TableProducts from './components/repetition/TableProducts';
 import PairOrOdd from './components/conditional/PairOrOdd';
+import UserInfo from './components/conditional/UserInfo';
 
 import './App.css';
 
@@ -70,6 +71,7 @@ export default function App() {
                 <Card title="#8 - Renderização Condicional" color="#982">
 
                     <PairOrOdd value={20} />
+                    <UserInfo user={{ name: 'Danilo' }} />
 
                 </Card>
 
