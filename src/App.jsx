@@ -8,6 +8,8 @@ import Random from './components/basics/Random';
 import Family from './components/basics/Family';
 import FamilyMember from './components/basics/FamilyMember';
 import ListStudents from './components/repetition/ListStudents';
+import TableProducts from './components/repetition/TableProducts';
+import PairOrOdd from './components/conditional/PairOrOdd';
 
 import './App.css';
 
@@ -56,6 +58,18 @@ export default function App() {
                 <Card title="#6 - Repetição" color="#529">
 
                     <ListStudents  />
+
+                </Card>
+
+                <Card title="#7 - Desafio Repetição" color="#889">
+
+                    <TableProducts  />
+
+                </Card>
+
+                <Card title="#8 - Renderização Condicional" color="#982">
+
+                    <PairOrOdd value={20} />
 
                 </Card>
 

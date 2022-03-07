@@ -1,0 +1,13 @@
+.tableProducts table {
+    width: 100%;
+}
+
+
+.tableProducts th {
+    background-color: #889;
+    color: #fff;
+}
+
+.tableProducts .par{
+    background-color: #ddd;
+}
