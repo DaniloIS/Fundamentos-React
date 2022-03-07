@@ -13,6 +13,8 @@ import PairOrOdd from './components/conditional/PairOrOdd';
 import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/comunication/DirectFather';
 import IndirectFather from './components/comunication/IndirectFather';
+import Input from './components/form/Input';
+import Counter from './components/counter/Counter';
 
 import './App.css';
 
@@ -86,6 +88,18 @@ export default function App() {
                 <Card title="#10 - Comunicação Indireta" color="#8BAD39">
 
                     <IndirectFather />
+
+                </Card>
+
+                <Card title="#11 - Componente Controlado (Input)" color="#E45">
+
+                    <Input />
+
+                </Card>
+
+                <Card title="#12 - Contador" color="#424242">
+
+                    <Counter startNumber={10} />
 
                 </Card>
 
