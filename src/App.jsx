@@ -15,6 +15,7 @@ import DirectFather from './components/comunication/DirectFather';
 import IndirectFather from './components/comunication/IndirectFather';
 import Input from './components/form/Input';
 import Counter from './components/counter/Counter';
+import Mega from './components/mega/Mega';
 
 import './App.css';
 
@@ -100,6 +101,12 @@ export default function App() {
                 <Card title="#12 - Contador" color="#424242">
 
                     <Counter startNumber={10} />
+
+                </Card>
+
+                <Card title="#13 - Mega" color="#424242">
+
+                    <Mega num={10} />
 
                 </Card>
 
